@@ -1,0 +1,27 @@
+@media screen and (min-width: 650px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+        max-width: 600px;}
+
+
+    .card-image,
+    .card-content {
+        flex: 1;
+    }
+
+
+    .card-image img:first-child {
+        display: none;
+    }
+    
+    .card-image img:last-child {
+        display: block;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 32px;
+    }
+}
